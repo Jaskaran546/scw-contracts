@@ -13,6 +13,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:security/recommended",
   ],
+  
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
@@ -39,11 +40,11 @@ module.exports = {
         allow: [".*__factory"],
       },
     ],
-    // "@typescript-eslint/no-explicit-any": "error",
-    // quotes: ["error", "double"],
-    // "no-unused-vars": "error",
-    // "no-console": "error",
-    // "@typescript-eslint/no-unused-vars": "error",
-    // "@typescript-eslint/explicit-function-return-type": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    quotes: ["error", "double"],
+    "no-unused-vars": "error",
+    "no-console": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/explicit-function-return-type": "error",
   },
 };

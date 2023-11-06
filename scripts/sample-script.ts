@@ -11,7 +11,7 @@ import {
   BigNumber,
 } from "ethers";
 import { ethers } from "hardhat";
-import { MockPriceFeed__factory } from "../typechain-types";
+import { MockPriceFeed__factory } from "../typechain";
 
 // Runtime Environment's members available in the global scope.
 const hre = require("hardhat");

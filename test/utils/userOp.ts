@@ -252,7 +252,7 @@ export async function fillUserOp(
     if (useNonceKey) {
       const c = new Contract(
         op.sender!,
-        [`function nonce(uint192) view returns(uint256)`],
+        ["function nonce(uint192) view returns(uint256)"],
         provider
       );
       op1.nonce = await c.nonce(nonceKey).catch(rethrow());
